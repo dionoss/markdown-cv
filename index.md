@@ -1,91 +1,149 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Dion Avé's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# >_ Dion Avé | Cybersecurity Specialist
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+---
 
+## >_ Contact
 
-## Currently
+- **Email:** `dionoss@gmail.com`
+- **Phone:** `+31 (0)6 83 98 47 84`
+- **LinkedIn:** [linkedin.com/in/dion-ave](https://linkedin.com/in/dion-ave)
+- **Github:** [github.com/dionoss](https://github.com/dionoss)
+- **Website:** [dionave.dev](https://dionave.dev)
+- **Location:** Leiden, NL
 
-Standing on the shoulders of giants
+---
 
-### Specialized in
+## >_ Skills
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+```bash
+$ skills --list
+> Security-by-design
+> Information Security Management
+> Risk Assessment and Management
+> Cyber Security Technologies
+> Compliance and Legal Frameworks
+> Incident Response
+> Network Security
+> Security Auditing
+> Project Management
+> Basic: Python | Javascript | Bash | SQL
+> Windows | Linux | Kali Linux | Proxmox | pfSense | Docker
+```
 
+---
 
-### Research interests
+## >_ Experience
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+### [2023 - Present] **Computer Student** @ **Avé IT Advies**
 
+```bash
+$ ./responsibilities.sh
+> Teaching costumers basic to intermediary IT-skills
+> Maintenance of personal computers, setting up networks and IoT-devices
+> Removing malware
+> Web design and hosting
+> Administration and finance
+```
 
-## Education
+### [2023 - 2024] **Internship** @ **KPMG**
 
-`1654-1660`
-__The King's School, Grantham.__
+```bash
+$ ./internship_kpmg.sh
+> Researching Continuous Monitoring
+> Managing a project and different stakeholders
+> Presenting research findings to Strategy & Risk team
+```
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+### [2020 - 2021] **Internship ISO 27001 re-certification** @ **Merlin Software**
 
-- Sizar
+```bash
+$ ./internship_merlin.sh
+> Recertification for ISO 27001
+> Conducting a risk assessment
+```
 
-`1667 - death`
-__Trinity College, Cambridge__
+### [2020 - 2021] **Social Media Crisis Trainer** @ **Parcival Crisis**
 
-- Fellow
+```bash
+$ ./socialmedia_parcival.sh
+> Preperation of simulated social media and news for crisis scenarios
+> Simulating real-time social media messages and news broadcasts
+> Planning and implementing an Information Security Management System
+```
 
+### [2017 - 2023] **Social Media Crisis Trainer** @ **Parcival Crisis**
 
+```bash
+$ ./socialmedia_parcival.sh
+> Preparation of simulated social media and news for crisis scenarios
+> Simulating real-time social media messages and news broadcasts
+> Planning and implementing an Information Security Management System
+```
 
-## Awards
+---
 
-`2012`
-President, *Royal Society*, London, UK
+## >_ Education
 
-Associate, *French Academy of Science*, Paris, France
+### [Present] **B.Sc. HBO-ICT Information Security Management** @ **The Hague University of Applied Sciences**
 
+```bash
+$ ./courses.sh
+> Security Operations (Monitoring and Response)
+> Information Security Governance
+> Business Continuity & Crisis Management
+> Human Factor & Psychology in Cybersecurity
+> (Minor) Research & Scientific Writing
+> (Minor) Building Research Platforms
+```
 
+---
 
-## Publications
+## >_ Projects
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+### **HomeLab & Personal Security Research**
 
-### Journals
+```bash
+$ ./homelab.sh --info
+> Homelab for webhosting and improving networking skills
+> Personal cybersecurity lab environment
+> Experimentation with penetration testing & defensive security
+> Network segmentation
+> Home automation and IoT
+```
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+---
 
-`1669`
-Lectiones opticæ.
+## >_ Interests
 
-etc. etc. etc.
+```bash
+$ interests --list
+> Open-source software development
+> Bug bounty hunting
+> Cybersecurity blogging
+```
 
-### Patents
+---
 
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+## >_ References
 
+```bash
+$ ./references.sh
+> Available upon request
+```
 
-## Occupation
+---
 
-`1600`
-__Royal Mint__, London
+```
+root@resume:~# █
+```
 
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
+---
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: april 2025 -->
 
 
