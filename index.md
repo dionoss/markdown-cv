@@ -123,7 +123,6 @@ $ ./homelab.sh --info
 $ interests --list
 > Open-source software development
 > Bug bounty hunting
-> Cybersecurity blogging
 ```
 
 ---
