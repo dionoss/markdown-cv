@@ -1,0 +1,11 @@
+@media print {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: monospace;
+  }
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: smaller;
+  }
+}
