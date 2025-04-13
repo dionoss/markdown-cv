@@ -135,14 +135,6 @@ $ ./references.sh
 ```
 
 ---
-
-```
-root@resume:~# <div class="terminal">
-  <span class="prompt">$</span><span class="cursor">█</span>
-</div>
-```
-
----
 <!-- ### Footer
 
 Last updated: april 2025 -->
