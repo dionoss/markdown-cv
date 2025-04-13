@@ -54,6 +54,9 @@ To change the default style, simply change the variable in the
 
 Any other styling is possible. More CSS style contributions and forks are welcome!
 
+### Preview
+![Preview of CV](media/preview.png)
+
 ### Author
 
 Eliseo Papa ([Twitter](http://twitter.com/elipapa)/[Github](http://github.com/elipapa)/[Website](https://elipapa.github.io)).
