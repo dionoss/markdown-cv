@@ -6,6 +6,16 @@ For more details, see the [project page](http://elipapa.github.io/markdown-cv), 
 
 ***
 
+
+## My resume
+
+This is my CV, built using [markdown-cv](https://github.com/elipapa/markdown-cv).  
+It's clean, lightweight, and easy to maintain.
+
+**Live version:** [dionoss.github.io/markdown-cv](https://dionoss.github.io/markdown-cv)
+
+![CV Preview](media/preview.png)
+
 ## Customization
 
 Simply [fork the markdown-cv repo](https://github.com/elipapa/markdown-cv)
