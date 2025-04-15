@@ -24,13 +24,14 @@ $ skills --list
 > Security-by-design
 > Information Security Management
 > Risk Assessment and Management
+> Business Process Management
 > Cyber Security Technologies
 > Compliance and Legal Frameworks
 > Incident Response
 > Network Security
 > Security Auditing
 > Project Management
-> Python | Javascript| Typescript | Bash | SQL
+> Python | Javascript | SQL
 > Windows | Linux | Kali Linux | Proxmox | pfSense
 ```
 
