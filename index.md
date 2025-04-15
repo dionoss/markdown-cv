@@ -30,8 +30,8 @@ $ skills --list
 > Network Security
 > Security Auditing
 > Project Management
-> Basic: Python | Javascript | Bash | SQL
-> Windows | Linux | Kali Linux | Proxmox | pfSense | Docker
+> Python | Javascript| Typescript | Bash | SQL
+> Windows | Linux | Kali Linux | Proxmox | pfSense
 ```
 
 ---
@@ -121,8 +121,10 @@ $ ./homelab.sh --info
 
 ```bash
 $ interests --list
-> Open-source software development
+> Open-source development
 > Bug bounty hunting
+> Oldtimer restauration
+> Skydiving
 ```
 
 ---
