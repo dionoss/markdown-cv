@@ -138,6 +138,10 @@ $ ./references.sh
 ```
 
 ---
+<div class="terminal">
+    <span class="prompt">root@resume:~# </span><span class="cursor">█</span>
+</div>
+---
 <!-- ### Footer
 
 Last updated: april 2025 -->
