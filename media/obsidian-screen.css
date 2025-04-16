@@ -107,3 +107,10 @@ strong {
     opacity: 0;
   }
 }
+@media print {  /* Specific margins for different sides */
+  @page {
+    padding-top: 0.5in;
+    margin-bottom: 0.5in;
+
+  }
+}
