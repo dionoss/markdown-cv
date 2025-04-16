@@ -138,7 +138,7 @@ $ ./references.sh
 ```
 
 ---
-<div class="terminal">
+<div class="terminal terminalprint">
     <span class="prompt">root@resume:~# </span><span class="cursor">█</span>
 </div>
 ---
