@@ -76,13 +76,13 @@ $ ./socialmedia_parcival.sh
 > Planning and implementing an Information Security Management System
 ```
 
-### [2017 - 2023] **Social Media Crisis Trainer** @ **Parcival Crisis**
+### [2017 - 2023] **Computer student** @ **uwComputerstudent**
 
 ```bash
-$ ./socialmedia_parcival.sh
-> Preparation of simulated social media and news for crisis scenarios
-> Simulating real-time social media messages and news broadcasts
-> Planning and implementing an Information Security Management System
+$ ./responsibilities.sh
+> Teaching costumers basic to intermediary IT-skills
+> Maintenance of personal computers, setting up networks and IoT-devices
+> Removing malware
 ```
 
 ---
