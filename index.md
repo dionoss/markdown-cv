@@ -1,3 +1,5 @@
+  <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
+  <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
 ---
 layout: cv
 title: Dion Avé's CV
