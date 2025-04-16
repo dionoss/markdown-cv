@@ -1,3 +1,4 @@
+/* Base styles */
 body {
   background-color: #1e1e1e;
   color: #d4d4d4;
@@ -7,6 +8,7 @@ body {
   padding: 2.54cm; /* 1 inch margins */
 }
 
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #569cd6;
@@ -30,6 +32,7 @@ h3 {
   color: #b5cea8;
 }
 
+/* Links */
 a {
   color: #4fc1ff;
   text-decoration: none;
@@ -39,6 +42,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Code blocks */
 code, pre {
   background-color: #1b1b1b;
   color: #dcdcaa;
@@ -55,18 +59,21 @@ pre {
   white-space: pre-wrap;
 }
 
+/* Lists */
 ul, ol {
   padding-left: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
+/* Horizontal rule */
 hr {
   border: none;
   border-top: 1px solid #333;
   margin: 2em 0;
 }
 
+/* Text emphasis */
 em {
   font-style: italic;
   color: #c586c0;
@@ -76,9 +83,23 @@ strong {
   font-weight: bold;
 }
 
+/* Layout */
 #main {
   max-width: 900px;
   margin: 0 auto;
+}
+
+/* Terminal styles */
+.terminal {
+  background-color: #1b1b1b;
+  color: #dcdcaa;
+  font-family: 'Fira Code', monospace;
+  padding: 0.5em;
+  border-radius: 4px;
+  overflow-x: auto;
+  display: block;
+  margin: 1em 0;
+  font-size: 0.9em;
 }
 
 .terminalprint {
@@ -93,25 +114,29 @@ strong {
   font-size: 0.9em;
 }
 
+/* Print-specific styles */
 @media print {
+  /* Hide screen-specific elements */
   header, footer, .terminal {
-    display: none
+    display: none;
   }
+  
   .cursorprint {
     animation: none;
   }
 
-  /* Print-specific settings */
+  /* Page settings */
   @page {
     margin: 2.54cm; /* 1 inch margins */
     size: a4;
   }
 
-  /* Prevent page breaks before and after headings */
+  /* Prevent page breaks */
   h1 {
     break-after: avoid;
     page-break-after: avoid;
   }
+
   h2 {
     break-after: avoid;
     break-before: avoid;
@@ -119,13 +144,11 @@ strong {
     page-break-before: avoid;
   }
 
-  /* Prevent page breaks before and after horizontal rules */
   hr {
     break-before: avoid;
     page-break-before: avoid;
   }
 
-  /* Prevent page breaks before and after code blocks */
   language-bash {
     break-inside: avoid;
     break-before: avoid;
@@ -133,21 +156,35 @@ strong {
     page-break-before: avoid;
   }
 
-  /* Keep lists together */
   ul, ol {
     page-break-inside: avoid;
   }
 
-  /* Keep paragraphs with their following elements */
   p {
     orphans: 3;
     widows: 3;
   }
 
-  /* Keep elements with terminalprint class together */
   .terminalprint {
     page-break-inside: avoid;
     page-break-before: avoid;
     page-break-after: avoid;
+  }
+}
+
+/* Screen-specific styles */
+@media screen {
+  .cursor {
+    animation: blink 1s step-start infinite;
+  }
+  
+  .terminalprint {
+    display: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
   }
 }
