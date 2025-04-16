@@ -82,13 +82,15 @@ strong {
 }
 
 .terminal {
-  font-family: 'Fira Code', 'Courier New', monospace; /* Keep the monospace font */
-  color: #d4d4d4; /* Change to match the body text color */
-  background-color: #1e1e1e; /* Change to match the body background */
-  padding: 0.5em; /* Adjust padding for consistency */
-  margin-top: 1em; /* Add margin for spacing */
-  border-radius: 4px; /* Keep the border radius */
-  
+  background-color: #1b1b1b;
+  color: #dcdcaa;
+  font-family: 'Fira Code', monospace;
+  padding: 0.5em;
+  border-radius: 4px;
+  overflow-x: auto;
+  display: block;
+  margin: 1em 0;
+  font-size: 0.9em;
 }
 
 .cursor {
