@@ -2,31 +2,31 @@ body {
   background-color: #1e1e1e;
   color: #d4d4d4;
   font-family: 'Fira Code', 'Courier New', monospace;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 11pt;
+  line-height: 1.4;
   padding: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #569cd6;
-  margin-top: 2em;
+  margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 16pt;
   border-bottom: 1px solid #333;
   padding-bottom: 0.3em;
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 14pt;
   color: #9cdcfe;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 12pt;
   color: #b5cea8;
 }
 
