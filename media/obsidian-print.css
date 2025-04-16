@@ -102,22 +102,19 @@ strong {
   }
 
   /* Prevent page breaks before and after headings */
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2 {
     page-break-after: avoid;
-    page-break-before: avoid;
   }
 
   /* Prevent page breaks before and after horizontal rules */
   hr {
     page-break-before: avoid;
-    page-break-after: avoid;
   }
 
   /* Prevent page breaks before and after code blocks */
-  code, pre {
+  language-bash {
     page-break-inside: avoid;
     page-break-before: avoid;
-    page-break-after: avoid;
   }
 
   /* Keep lists together */
