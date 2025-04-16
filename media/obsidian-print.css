@@ -12,24 +12,29 @@ h1, h2, h3 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   page-break-after: avoid;
+  page-break-inside: avoid;
 }
 
 h1 {
   font-size: 20pt;
   border-bottom: 1px solid #000;
+  page-break-inside: avoid;
 }
 
 h2 {
   font-size: 16pt;
+  page-break-inside: avoid;
 }
 
 h3 {
   font-size: 14pt;
+  page-break-inside: avoid;
 }
 
 a {
   color: black;
   text-decoration: none;
+  page-break-inside: avoid;
 }
 
 a::after {
@@ -44,12 +49,14 @@ code, pre {
   border-radius: 4px;
   font-size: 10pt;
   overflow-x: auto;
+  page-break-inside: avoid;
 }
 
 hr {
   border: none;
   border-top: 1px solid #ccc;
   margin: 1.5em 0;
+  page-break-inside: avoid;
 }
 @media print {
   header, footer, .terminalprint {

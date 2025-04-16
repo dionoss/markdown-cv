@@ -8,8 +8,8 @@ title: Dion Avé's CV
 
 ## >_ Contact
 
-- **Email:** `[redacted]`
-- **Phone:** `[redacted]`
+- **Email:** [dionoss@gmail.com](mailto:dionoss@gmail.com)
+- **Phone:** [+31 (0)6 83 98 47 84](tel:+31683984784)
 - **LinkedIn:** [linkedin.com/in/dion-ave](https://linkedin.com/in/dion-ave)
 - **Github:** [github.com/dionoss](https://github.com/dionoss)
 - **Website:** [dionave.dev](https://dionave.dev)
@@ -32,7 +32,7 @@ $ skills --list
 > Security Auditing
 > Project Management
 > Python | Javascript | SQL
-> Windows | Linux | Kali Linux | Proxmox | pfSense
+> Windows | Linux | Kali Linux | Proxmox | OPNSense
 ```
 
 ---
@@ -76,7 +76,7 @@ $ ./socialmedia_parcival.sh
 > Planning and implementing an Information Security Management System
 ```
 
-### [2017 - 2023] **Computer student** @ **uwComputerstudent**
+### [2017 - 2023] **Computer Student** @ **uwComputerstudent**
 
 ```bash
 $ ./responsibilities.sh
