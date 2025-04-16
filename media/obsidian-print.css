@@ -2,9 +2,9 @@ body {
   background-color: #1e1e1e;
   color: #d4d4d4;
   font-family: 'Fira Code', 'Courier New', monospace;
-  font-size: 11pt;
-  line-height: 1.4;
-  padding: 2em;
+  font-size: 12pt;
+  line-height: 1.5;
+  padding: 2.54cm; /* 1 inch margins */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,6 +76,10 @@ strong {
   font-weight: bold;
 }
 
+#main {
+  max-width: 900px;
+  margin: 0 auto;
+}
 
 .terminalprint {
   background-color: #1b1b1b;
@@ -99,7 +103,7 @@ strong {
 
   /* Print-specific settings */
   @page {
-    margin: 0cm;
+    margin: 2.54cm; /* 1 inch margins */
     size: a4;
   }
 
@@ -136,8 +140,8 @@ strong {
 
   /* Keep paragraphs with their following elements */
   p {
-    orphans: 10;
-    widows: 10;
+    orphans: 3;
+    widows: 3;
   }
 
   /* Keep elements with terminalprint class together */
