@@ -76,10 +76,6 @@ strong {
   font-weight: bold;
 }
 
-#main {
-  max-width: 900px;
-  margin: 0 auto;
-}
 
 .terminalprint {
   background-color: #1b1b1b;
