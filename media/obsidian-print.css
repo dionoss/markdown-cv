@@ -101,18 +101,34 @@ strong {
     animation: none;
   }
 
+  /* Print-specific settings */
+  @page {
+    margin: 0cm;
+    size: a4;
+  }
+
   /* Prevent page breaks before and after headings */
-  h1, h2 {
+  h1 {
+    break-after: avoid;
     page-break-after: avoid;
+  }
+  h2 {
+    break-after: avoid;
+    break-before: avoid;
+    page-break-after: avoid;
+    page-break-before: avoid;
   }
 
   /* Prevent page breaks before and after horizontal rules */
   hr {
+    break-before: avoid;
     page-break-before: avoid;
   }
 
   /* Prevent page breaks before and after code blocks */
   language-bash {
+    break-inside: avoid;
+    break-before: avoid;
     page-break-inside: avoid;
     page-break-before: avoid;
   }
