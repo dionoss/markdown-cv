@@ -2,6 +2,7 @@
 layout: cv
 title: Dion Avé's CV
 ---
+
 # >_ Dion Avé | Cybersecurity Specialist
 
 ---

@@ -15,13 +15,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   border-bottom: 1px solid #333;
   padding-bottom: 0.3em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   color: #9cdcfe;
 }
 
@@ -140,8 +140,8 @@ strong {
 
   /* Keep paragraphs with their following elements */
   p {
-    orphans: 3;
-    widows: 3;
+    orphans: 10;
+    widows: 10;
   }
 
   /* Keep elements with terminalprint class together */
