@@ -8,8 +8,8 @@ title: Dion Avé's CV
 
 ## >_ Contact
 
-- **Email:** [dionoss@gmail.com](mailto:dionoss@gmail.com)
-- **Phone:** [+31 (0)6 83 98 47 84](tel:+31683984784)
+- **Email:** [[redacted]]@gmail.com](mailto:)
+- **Phone:** [+31 (0)6 [redacted]](tel:+redacted)
 - **LinkedIn:** [linkedin.com/in/dion-ave](https://linkedin.com/in/dion-ave)
 - **Github:** [github.com/dionoss](https://github.com/dionoss)
 - **Website:** [dionave.dev](https://dionave.dev)
