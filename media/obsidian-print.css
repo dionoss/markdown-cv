@@ -1,65 +1,140 @@
 body {
-  background-color: #ffffff;
-  color: #000000;
-  font-family: monospace;
-  font-size: 12pt;
-  line-height: 1.5;
-  margin: 2em;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 2em;
 }
 
-h1, h2, h3 {
-  font-weight: bold;
-  margin-top: 1.5em;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #569cd6;
+  margin-top: 2em;
   margin-bottom: 0.5em;
-  page-break-after: avoid;
-  page-break-inside: avoid;
 }
 
 h1 {
-  font-size: 20pt;
-  border-bottom: 1px solid #000;
-  page-break-inside: avoid;
+  font-size: 2em;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.3em;
 }
 
 h2 {
-  font-size: 16pt;
-  page-break-inside: avoid;
+  font-size: 1.5em;
+  color: #9cdcfe;
 }
 
 h3 {
-  font-size: 14pt;
-  page-break-inside: avoid;
+  font-size: 1.3em;
+  color: #b5cea8;
 }
 
 a {
-  color: black;
+  color: #4fc1ff;
   text-decoration: none;
-  page-break-inside: avoid;
 }
 
-a::after {
-  content: \" (\" attr(href) \")\";
-  font-size: smaller;
+a:hover {
+  text-decoration: underline;
 }
 
 code, pre {
-  background-color: #eee;
-  color: #000;
-  padding: 0.2em 0.4em;
+  background-color: #1b1b1b;
+  color: #dcdcaa;
+  font-family: 'Fira Code', monospace;
+  padding: 0.5em;
   border-radius: 4px;
-  font-size: 10pt;
   overflow-x: auto;
-  page-break-inside: avoid;
+  display: block;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+ul, ol {
+  padding-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #ccc;
-  margin: 1.5em 0;
-  page-break-inside: avoid;
+  border-top: 1px solid #333;
+  margin: 2em 0;
 }
+
+em {
+  font-style: italic;
+  color: #c586c0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.terminalprint {
+  background-color: #1b1b1b;
+  color: #dcdcaa;
+  font-family: 'Fira Code', monospace;
+  padding: 0.5em;
+  border-radius: 4px;
+  overflow-x: auto;
+  display: block;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
 @media print {
-  header, footer, .terminalprint {
+  header, footer, .terminal {
     display: none
+  }
+  .cursorprint {
+    animation: none;
+  }
+
+  /* Prevent page breaks before and after headings */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-before: avoid;
+  }
+
+  /* Prevent page breaks before and after horizontal rules */
+  hr {
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Prevent page breaks before and after code blocks */
+  code, pre {
+    page-break-inside: avoid;
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Keep lists together */
+  ul, ol {
+    page-break-inside: avoid;
+  }
+
+  /* Keep paragraphs with their following elements */
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Keep elements with terminalprint class together */
+  .terminalprint {
+    page-break-inside: avoid;
+    page-break-before: avoid;
+    page-break-after: avoid;
   }
 }

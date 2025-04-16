@@ -93,8 +93,13 @@ strong {
   font-size: 0.9em;
 }
 
-.cursor {
-  animation: blink 1s step-start infinite;
+@media screen {
+  .cursor {
+    animation: blink 1s step-start infinite;
+  }
+  .terminalprint {
+    display: none;
+  }
 }
 
 @keyframes blink {
