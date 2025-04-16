@@ -2,8 +2,6 @@
 layout: cv
 title: Dion Avé's CV
 ---
-  <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
 # >_ Dion Avé | Cybersecurity Specialist
 
 ---
