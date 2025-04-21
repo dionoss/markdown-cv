@@ -123,7 +123,6 @@ strong {
     page-break-after: avoid;
     break-before: avoid;
     break-inside: avoid;
-    break-after: avoid;
     display: inline-block;
     width: 100%;
   }
