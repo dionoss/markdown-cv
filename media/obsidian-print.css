@@ -120,7 +120,6 @@ strong {
   h3 + * {
     page-break-before: avoid;
     page-break-inside: avoid;
-    page-break-after: avoid;
     break-before: avoid;
     break-inside: avoid;
     display: inline-block;
