@@ -10,11 +10,11 @@ title: Dion Avé's CV
 ## >_ Contact
 
 - **Email:** [redacted](mailto:)
-- **Phone:** [redacted](tel:+31)
+- **Phone:** [+31 (0)6 redacted](tel:+316)
 - **LinkedIn:** [linkedin.com/in/dion-ave](https://linkedin.com/in/dion-ave)
 - **Github:** [github.com/dionoss](https://github.com/dionoss)
 - **Website:** [dionave.dev](https://dionave.dev)
-- **Properly formatted cv:** [cv.dionave.dev](https://cv.dionave.dev)
+- **Resume:** [cv.dionave.dev](https://cv.dionave.dev)
 - **Location:** Leiden, NL
 
 ---
@@ -38,6 +38,8 @@ $ skills --list
 ```
 
 ---
+
+<div class="page-break"></div>
 
 ## >_ Experience
 
@@ -88,6 +90,8 @@ $ ./responsibilities.sh
 ```
 
 ---
+
+<div class="page-break"></div>
 
 ## >_ Education
 

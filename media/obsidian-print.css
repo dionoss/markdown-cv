@@ -97,7 +97,7 @@ strong {
 @media print {
   html, body, body * {
     -webkit-print-color-adjust: exact;
-    color-adjust: exact;
+    print-color-adjust: exact;
     box-shadow: none;
   }
   
@@ -113,7 +113,9 @@ strong {
     width: 100%;
     margin-top: 0.8em;
   }
-  
+  hr {
+    display: none;
+  }
   /* Prevent breaks before and inside content after headings */
   h1 + *,
   h2 + *,
@@ -128,6 +130,7 @@ strong {
   
   /* Prevent breaks before headings */
   h2, h3 {
+    margin-top: 0.8em;
     page-break-before: avoid;
     break-before: avoid;
   }
@@ -162,5 +165,13 @@ strong {
   /* Adjust horizontal rule spacing */
   hr {
     margin: 1em 0;
+  }
+
+  /* Page break class */
+  .page-break {
+    page-break-before: always;
+    break-before: page;
+    margin-top: 0;
+    margin-bottom: 0em;
   }
 }
