@@ -9,11 +9,12 @@ title: Dion Avé's CV
 
 ## >_ Contact
 
-- **Email:** [[redacted]]@gmail.com](mailto:)
-- **Phone:** [+31 (0)6 [redacted]](tel:+redacted)
+- **Email:** [redacted](mailto:)
+- **Phone:** [redacted](tel:+31)
 - **LinkedIn:** [linkedin.com/in/dion-ave](https://linkedin.com/in/dion-ave)
 - **Github:** [github.com/dionoss](https://github.com/dionoss)
 - **Website:** [dionave.dev](https://dionave.dev)
+- **Properly formatted cv:** [cv.dionave.dev](https://cv.dionave.dev)
 - **Location:** Leiden, NL
 
 ---
