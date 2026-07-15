@@ -125,9 +125,13 @@ strong {
   display: block;
   margin: 1em 0;
   font-size: 0.9em;
-  white-space: pre-wrap;
+  white-space: normal;
   overflow-wrap: anywhere;
   word-break: normal;
+}
+
+.terminal .prompt {
+  color: #dcdcaa;
 }
 
 @media screen {
