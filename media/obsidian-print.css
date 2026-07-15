@@ -173,6 +173,42 @@ em {
   font-style: italic;
 }
 
+/* Rouge syntax highlighting for print */
+.highlight .gp {
+  color: #1f4e79;
+}
+
+.highlight .go {
+  color: #111827;
+}
+
+.highlight .nb {
+  color: #7c2d12;
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+  color: #7f1d1d;
+}
+
+.highlight .m,
+.highlight .mi,
+.highlight .mf {
+  color: #166534;
+}
+
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+  color: #4b5563;
+  font-style: italic;
+}
+
+.highlight .k {
+  color: #6d28d9;
+}
+
 .terminal {
   background: #f8fafc;
   color: #111827;
