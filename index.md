@@ -402,9 +402,9 @@ references:
 ```
 
 ---
-<div class="terminal">
-    <span class="prompt">dion@resume:~$ exit </span><span class="cursor">█</span>
-</div>
+
+<div class="terminal"><span class="prompt">dion@resume:~$ </span><span class="cursor">█</span></div>
+
 ---
 <!-- ### Footer
 
