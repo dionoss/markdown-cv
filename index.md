@@ -403,7 +403,7 @@ references:
 
 ---
 <div class="terminal">
-    <span class="prompt">root@resume:~# </span><span class="cursor">█</span>
+    <span class="prompt">dion@resume:~$ exit </span><span class="cursor">█</span>
 </div>
 ---
 <!-- ### Footer
