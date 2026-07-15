@@ -1,177 +1,201 @@
-body {
-  background-color: #1e1e1e;
-  color: #d4d4d4;
-  font-family: 'Fira Code', 'Courier New', monospace;
-  font-size: 15px;
-  line-height: 1.5;
-  padding: 0.8cm;
+@page {
+  size: A4;
+  margin: 12mm;
 }
 
-h1, h2, h3, h4, h5, h6 {
+html {
+  background: #ffffff;
+}
+
+body {
+  background: #ffffff;
+  color: #1f2933;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 9.5pt;
+  line-height: 1.45;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+html,
+body,
+body * {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+#main {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+}
+
+#content {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111827;
   font-weight: 600;
-  color: #569cd6;
-  margin-top: 0.8em;
-  margin-bottom: 0.3em;
+  break-after: avoid-page;
+  page-break-after: avoid;
 }
 
 h1 {
-  font-size: 1.8em;
-  border-bottom: 1px solid #333;
+  font-size: 16pt;
+  border-bottom: 1px solid #d1d5db;
   padding-bottom: 0.2em;
+  margin: 0 0 0.5em 0;
 }
 
 h2 {
-  font-size: 1.4em;
-  color: #9cdcfe;
+  color: #1f4e79;
+  font-size: 12.5pt;
+  margin: 1.1em 0 0.35em 0;
 }
 
 h3 {
-  font-size: 1.2em;
-  color: #b5cea8;
+  color: #256029;
+  font-size: 10.5pt;
+  margin: 0.9em 0 0.25em 0;
+}
+
+/* Keep each code block with its immediately preceding heading. */
+h1 + pre,
+h2 + pre,
+h3 + pre,
+h1 + .highlight,
+h2 + .highlight,
+h3 + .highlight {
+  break-before: avoid-page;
+  page-break-before: avoid;
 }
 
 a {
-  color: #4fc1ff;
+  color: #0645ad;
   text-decoration: none;
 }
 
-code, pre {
-  background-color: #1b1b1b;
-  color: #dcdcaa;
-  font-family: 'Fira Code', monospace;
-  padding: 0.5em;
-  border-radius: 4px;
-  overflow-x: auto;
-  display: block;
-  margin: 1em 0;
-  font-size: 0.9em;
-}
-
-pre {
-  white-space: pre-wrap;
-}
-
-ul, ol {
-  padding-left: 2em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+a[href^="http"]::after,
+a[href^="mailto"]::after,
+a[href^="tel"]::after {
+  content: "";
 }
 
 hr {
   border: none;
-  border-top: 1px solid #333;
-  margin: 2em 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 0.8em 0;
 }
 
-em {
-  font-style: italic;
-  color: #c586c0;
+code,
+pre {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  border-radius: 4px;
+}
+
+code {
+  background: #f3f4f6;
+  color: #111827;
+  padding: 0.1em 0.25em;
+}
+
+pre {
+  background: #f8fafc;
+  color: #111827;
+  border: 1px solid #d1d5db;
+  font-size: 8.2pt;
+  line-height: 1.32;
+  padding: 0.45em 0.6em;
+  margin: 0.45em 0 0.75em 0;
+
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  overflow: visible;
+
+  break-inside: auto;
+  page-break-inside: auto;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+pre code {
+  display: block;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  white-space: inherit;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.language-console,
+.language-shell-session,
+.language-terminal,
+.highlight .language-console,
+.highlight .language-shell-session,
+.highlight .language-terminal {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+ul,
+ol {
+  padding-left: 1.3em;
+  margin-top: 0.35em;
+  margin-bottom: 0.45em;
+}
+
+li {
+  margin: 0.05em 0;
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 
-#main {
-  max-width: 17cm;
-  margin: 0 auto;
+em {
+  color: #374151;
+  font-style: italic;
 }
 
 .terminal {
-  background-color: #1b1b1b;
-  color: #dcdcaa;
-  font-family: 'Fira Code', monospace;
-  padding: 0.5em;
+  background: #f8fafc;
+  color: #111827;
+  border: 1px solid #d1d5db;
   border-radius: 4px;
-  overflow-x: auto;
-  display: block;
-  margin: 1em 0;
-  font-size: 0.9em;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 8.2pt;
+  line-height: 1.32;
+  padding: 0.45em 0.6em;
+  margin: 0.45em 0 0.75em 0;
+
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  overflow: visible;
+
+  break-inside: auto;
+  page-break-inside: auto;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
-@page {
-  size: A4;
-  margin: 0;
-  orphans: 2;
-  widows: 2;
-}
-@media print {
-  html, body, body * {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-    box-shadow: none;
-  }
-  
-  body {
-    padding: 0.8cm;
-  }
-  
-  /* Keep headings with their content */
-  h1, h2, h3 {
-    page-break-after: avoid;
-    break-after: avoid;
-    display: inline-block;
-    width: 100%;
-    margin-top: 0.8em;
-  }
-  hr {
-    display: none;
-  }
-  /* Prevent breaks before and inside content after headings */
-  h1 + *,
-  h2 + *,
-  h3 + * {
-    page-break-before: avoid;
-    page-break-inside: avoid;
-    break-before: avoid;
-    break-inside: avoid;
-    display: inline-block;
-    width: 100%;
-  }
-  
-  /* Prevent breaks before headings */
-  h2, h3 {
-    margin-top: 0.8em;
-    page-break-before: avoid;
-    break-before: avoid;
-  }
-  
-  /* Additional rule to keep content together */
-  h1 + *, h2 + *, h3 + * {
-    orphans: 2;
-    widows: 2;
-  }
 
-  /* Ensure terminal blocks don't break across pages */
-  .terminal {
-    page-break-inside: avoid;
-    break-inside: avoid;
-    margin: 0.5em 0;
-    padding: 0.3em;
-  }
-
-  /* Adjust list spacing for print */
-  ul, ol {
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
-    padding-left: 1.2em;
-  }
-
-  /* Adjust code block spacing */
-  code, pre {
-    margin: 0.5em 0;
-    padding: 0.3em;
-  }
-
-  /* Adjust horizontal rule spacing */
-  hr {
-    margin: 1em 0;
-  }
-
-  /* Page break class */
-  .page-break {
-    page-break-before: always;
-    break-before: page;
-    margin-top: 0;
-    margin-bottom: 0em;
-  }
+.page-break {
+  break-before: page;
+  page-break-before: always;
 }
