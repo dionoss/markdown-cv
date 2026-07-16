@@ -21,7 +21,7 @@ title: Dion Avé's CV
 
 ## >_ Professional Summary
 
-```shell-session
+```console
 dion@resume:~$ whoami --security-profile
 
 profile:
@@ -35,7 +35,7 @@ profile:
 
 ## >_ Skills
 
-```shell-session
+```console
 dion@resume:~$ skills --grouped
 
 identity_and_zero_trust:
@@ -113,7 +113,7 @@ professional_skills:
 
 ### **Proxmox-native SPIRE + mTLS + Prompt-Injection Research**
 
-```shell-session
+```console
 dion@resume:~/projects$ ./thesis_lab.sh --info
 
 built:
@@ -136,7 +136,7 @@ metrics:
 
 ### **HomeLab & Personal Security Research**
 
-```shell-session
+```console
 dion@resume:~/projects$ ./homelab.sh --info
 
 homelab:
@@ -153,7 +153,7 @@ homelab:
 
 ### [2025 - 2026] **Graduation Intern, Zero Trust IAM Research** @ **SonicBee**
 
-```shell-session
+```console
 dion@resume:~/experience$ ./graduation_sonicbee.sh --execute
 
 responsibilities:
@@ -181,7 +181,7 @@ impact:
 
 ### [2026 - Present] **Motorcycle Technician / Lead Builder** @ **GoNudge**
 
-```shell-session
+```console
 dion@resume:~/experience$ ./gonudge_motorcycles.sh --execute
 
 responsibilities:
@@ -209,7 +209,7 @@ impact:
 
 ### [May 2026 - Present] **Pre-launch Security Readiness Assessment** @ **GoNudge**
 
-```shell-session
+```console
 dion@resume:~/experience$ ./gonudge_security.sh --execute
 
 responsibilities:
@@ -229,7 +229,7 @@ impact:
 
 ### [2023 - 2024] **Cybersecurity / Strategy & Risk Intern** @ **KPMG**
 
-```shell-session
+```console
 dion@resume:~/experience$ ./internship_kpmg.sh --execute
 
 responsibilities:
@@ -256,7 +256,7 @@ impact:
 
 ### [2023 - 2024] **Computer Student** @ **Avé IT Advies**
 
-```shell-session
+```console
 dion@resume:~/experience$ ./ave_it_advies.sh --execute
 
 responsibilities:
@@ -276,7 +276,7 @@ impact:
 
 ### [2020 - 2021] **Information Security Intern, ISO 27001 Re-certification** @ **Merlin Software**
 
-```shell-session
+```console
 dion@resume:~/experience$ ./internship_merlin.sh --execute
 
 responsibilities:
@@ -294,7 +294,7 @@ impact:
 
 ### [2020 - 2021] **Social Media Crisis Trainer** @ **Parcival Crisis**
 
-```shell-session
+```console
 dion@resume:~/experience$ ./socialmedia_parcival.sh --execute
 
 responsibilities:
@@ -319,7 +319,7 @@ impact:
 
 ### [2017 - 2023] **Computer Student / IT Support** @ **uwComputerstudent**
 
-```shell-session
+```console
 dion@resume:~/experience$ ./responsibilities.sh --execute
 
 responsibilities:
@@ -341,7 +341,7 @@ impact:
 
 ### [2017 - 2026] **B.Sc. HBO-ICT Information Security Management** @ **The Hague University of Applied Sciences**
 
-```shell-session
+```console
 dion@resume:~/education$ ./education_thuas.sh --execute
 
 coursework:
@@ -361,7 +361,7 @@ thesis:
 
 ## >_ Interests
 
-```shell-session
+```console
 dion@resume:~$ ~/interests.sh --list
 
 Motorcycle customization / repair:
@@ -394,7 +394,7 @@ impact:
 
 ## >_ References
 
-```shell-session
+```console
 dion@resume:~$ ./references.sh
 
 references:
